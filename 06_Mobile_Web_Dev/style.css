@@ -1,0 +1,35 @@
+header {
+    background-color: orange;
+    color: white;
+    display: block;
+    position: fixed;
+    display: inline-block;
+    width: 600px;
+    height: 40px;
+    border-bottom: solid 5px brown;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+header input {
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    bottom: 5px;
+}
+
+    @media only screen and (max-width : 480px) {
+
+        header input{
+            display: none;
+        }
+
+        a:link.menu-trigger {
+            display: block;
+        }
+    }
